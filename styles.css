@@ -1,0 +1,32 @@
+.course-boxes {
+    display: flex;
+    justify-content: space-around;
+    border: solid black;
+}
+
+.available-courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid green;
+    height: 300px;
+    width: 200px;
+}
+
+.available-courses ul {
+    list-style: none;
+    text-decoration: none;
+    padding-left: 0;
+}
+
+
+
+
+.selected-courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid red;
+    height: 300px;
+    width: 200px;
+}
